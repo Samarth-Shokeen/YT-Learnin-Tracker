@@ -1,0 +1,75 @@
+.summary-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #dbeafe;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.summary-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.summary-subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.summary-id {
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.summary-content {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  min-height: 100px;
+  font-size: 0.95rem;
+  color: #334155;
+  margin-bottom: 2rem;
+}
+
+.summary-placeholder {
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.notes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.notes-section label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.notes-textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  resize: vertical;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+.notes-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}

@@ -1,0 +1,80 @@
+.analytics-page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.card {
+  background: #fafafa;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+.card h3 {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #111;
+}
+.dim {
+  color: #aaa;
+}
+.charts-section,
+.tags-section {
+  margin-bottom: 2rem;
+}
+.charts-section h2,
+.tags-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.chart-wrapper,
+.chart-placeholder {
+  background: #f3f3f3;
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #666;
+}
+.weekly-chart {
+  text-align: center;
+}
+.weekly-chart .bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 140px;
+  padding: 0.5rem 1rem;
+}
+.weekly-chart .bar {
+  flex: 1;
+  margin: 0 0.25rem;
+}
+.weekly-chart .bar .inner {
+  background: #4f46e5;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+.weekly-chart .bar .label {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #444;
+}
