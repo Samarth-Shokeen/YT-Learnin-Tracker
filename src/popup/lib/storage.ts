@@ -17,7 +17,7 @@ const defaultData: StorageData = {
   learningPlans: {},
 }
 
-const YT_API = "AIzaSyDlJY4ue5moCoVSp_nZaJjKdSW-x1YsHcs"
+const YT_API = /*Youtube API Key*/
 
 async function fetchVideoDuration(videoId: string): Promise<number | undefined> {
   try {
