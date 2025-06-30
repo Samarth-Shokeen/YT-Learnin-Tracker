@@ -15,14 +15,14 @@ export default function VideoSummary({ videoId }: Props) {
 
   useEffect(() => {
     const fetchSummary = async () => {
-      try {
-        const res = await fetch("http://localhost:8000/summarize", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ videoId }),
-        })
+    try {
+      const res = await fetch("https://yt-backend-ys08.onrender.com/summarize", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ videoId }),
+      })
 
         if (!res.ok) throw new Error(`Error ${res.status}: ${res.statusText}`)
 
